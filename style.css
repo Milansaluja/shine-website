@@ -112,7 +112,7 @@ body {
     background-color: white;
     display: flex;
     gap: 93px;
-    padding: 2vw;
+    /* padding: 2vw; */
     justify-content: center;
 }
 
