@@ -4,6 +4,11 @@
         height: 55vw;
     }
 
+    .second-heading,
+    .second-heading2 {
+        padding-bottom: 4vw;
+    }
+
     .sixth-head {
         padding: 0;
         width: 40vw;
@@ -29,6 +34,19 @@
     .navbar {
         top: 20%;
         left: 65%;
+    }
+
+    .fifth {
+        padding: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fifth h1 {
+        width: 78%;
+        padding-top: 3vw;
     }
 }
 
@@ -84,6 +102,11 @@
 
     .follow {
         width: 50%;
+    }
+
+    .sixth-head {
+        padding: 0;
+        width: 60vw;
     }
 }
 
@@ -250,8 +273,19 @@
 
     .second {
         flex-direction: column;
-        padding-left: 4vw;
         gap: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lists {
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .second-heading p {
+        padding-top: 3%;
     }
 
     .third-heading h1 {
@@ -329,7 +363,8 @@
     .co-founder {
         width: 508px;
     }
-    .footer{
+
+    .footer {
         gap: 20px;
     }
 }
@@ -357,68 +392,15 @@
         top: 84%;
     }
 
-    .third-heading h1 {
-        width: 85vw;
-    }
-
-    .color-img-list {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5vw;
-    }
-
-    .color-img-list .c-img {
-        width: 70%;
-    }
-
     .video-logo {
         width: 22%;
         top: 100px;
         left: 83px;
     }
 
-    .fifth-images-1stlist {
-        flex-direction: column;
-        gap: 5vw;
-    }
-
-    .fifth-images-2stlist {
-        flex-direction: column;
-        gap: 5vw;
-    }
-
-    .fifth {
-        padding: 4vw;
-        width: 77vw;
-    }
-
-    .fifth h1 {
-        padding: 0;
-    }
-
-    .sixth-head {
-        padding-right: 0;
-        width: 100%;
-    }
 
     .sixth-head h1 {
-        font-size: 2.3rem;
         width: 99vw;
-    }
-
-    .merge p {
-        padding-left: 0;
-        width: 67vw;
-    }
-
-    .merge {
-        width: 91%;
-        gap: 6vw;
-    }
-
-    .seven p {
-        width: 450px;
     }
 
     .seven h1 {
@@ -532,6 +514,10 @@
         width: 89vw;
     }
 
+    .fifth h1 {
+        font-size: 1.9rem;
+    }
+
     .seven h1 {
         font-size: 30px;
         width: 92%;
@@ -544,19 +530,6 @@
 
     .co-founder {
         width: 300px;
-    }
-
-    .lists {
-        flex-direction: column;
-        gap: 5vw;
-    }
-
-    .second {
-        text-align: center;
-    }
-
-    .second-heading p {
-        padding-top: 3%;
     }
 
     .third-heading h1 {
