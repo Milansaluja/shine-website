@@ -404,6 +404,17 @@
         font-size: 2rem;
     }
 
+    .merge {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .merge p {
+        width: 84vw;
+        text-align: center;
+    }
+
     .seven h1 {
         width: 364px;
         font-size: 38px;
@@ -454,6 +465,10 @@
     .seven p {
         width: 342px;
     }
+
+    .merge p {
+        width: 88vw;
+    }
 }
 
 
@@ -483,6 +498,9 @@
         width: 323px;
     }
 
+    .merge p {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width:320px) {
@@ -501,18 +519,6 @@
     .sixth-head h1 {
         font-size: 1.5rem;
         width: 75vw;
-    }
-
-    .merge {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 12%;
-    }
-
-    .merge p {
-        padding-left: 0;
-        width: 89vw;
     }
 
     .fifth h1 {
